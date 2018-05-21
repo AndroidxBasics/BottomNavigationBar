@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:title="Calls"
+        android:id="@+id/bottombaritem_calls"
+        android:icon="@drawable/ic_action_call"
+        app:showAsAction="ifRoom"
+
+        />
+    <item android:title="Recents"
+        android:id="@+id/bottombaritem_recents"
+        android:icon="@drawable/ic_query_builder"
+        app:showAsAction="ifRoom"
+        />
+    <item android:title="Trips"
+        android:id="@+id/bottombaritem_trips"
+        android:icon="@drawable/ic_flight"
+        app:showAsAction="ifRoom"
+        />
+</menu>
